@@ -1,0 +1,44 @@
+/* Cascading StyleSheets */
+/* CSS selector */
+* {
+  font-family: helvetica;  
+}
+.header {
+  height: 150px;
+  margin: 40px auto;
+  background-image: url("../img/pattern.jpeg");
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+span {
+  font-weight: bold;
+  color: blue;
+}
+
+.brushes h2 {
+  background-color: mediumspringgreen;
+}
+
+.frames h2 {
+  background-color: lightcoral;
+}
+
+.paint h2 {
+  background-color: skyblue;
+}
+
+img {
+  padding: 30px 10px;
+}
